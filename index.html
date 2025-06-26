@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Test</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images (1).png">
+</head>
+<body style="background-image: url(images\ \(16\).jpeg);">
+    <div class="container">
+        <div class="header">
+            <img src="images (1).png" height="200px" width="200px" alt="">
+            <h1>Tech Skill Vocational Institute</h1>
+            
+          </div>
+        <h1>Test No 6</h1>
+        <div class="name-section">
+            <label for="studentName"><span style="color: rgb(19, 94, 9); font-weight: bolder;">Enter your name:</span></label>
+            <input type="text" id="studentName" placeholder="Your Name">
+        </div>
+
+        <!-- Display Student's Name -->
+        <p id="displayName"></p>
+
+        <!-- Question 1 (Yes/No using checkboxes) -->
+        <div class="question">
+            <p>1. What is the main goal of knowledge mining in AI?</p>
+          <div>  <input type="checkbox" id="artificialIntelligence" value="Articial intelligence">
+            <label for="artificialIntelligence">Create Images from text </label></div>
+             <div><input type="checkbox" id="artificialIntelligence" value="Artificial intelligence">
+            <label for="artificialIntelligence">Extracting valuable insights from structured and unstructured data </label></div>
+            
+           
+        </div>
+        
+        <!-- Question 2 (Dropdown) -->
+        <div class="question">
+            <p>2. Which of the following is a technique used in text vectorization??</p>
+            <select id="question2">
+                <option value="">--Select an answer--</option>
+                <option value="Agriculture">Min-Max Scaling</option>
+                <option value="Medical">Bag of Words (BoW)</option>
+                <option value="Weather forecast">Convolution</option>
+                <option value="Both a,b & c">Data Augmentation</option>
+            </select>
+        </div>
+          <!-- Question 3 (Dropdown) -->
+        <!-- Question 1 (Multiple Choice) -->
+<div class="question">
+    <p>3. Fine-tuning in machine learning usually refers to:?</p>
+    <div><input type="radio" id="computerVision" name="workloadAI" value="Computer Vision">
+    <label for="computerVision">Compressing a dataset for performance</label>
+    </div>
+   <div> <input type="radio" id="machineLearning" name="workloadAI" value="Machine Learning">
+    <label for="machineLearning">Improving a pre-trained model on a specific task</label>
+    </div>
+   <div> <input type="radio" id="regression" name="workloadAI" value="Regression">
+    <label for="regression">Building a model from scratch</label></div>
+</div>
+
+ <!-- Question 4 (Checkboxes) -->
+
+ <div class="question">
+    <p>4. What is the key benefit of using pre-trained language models with fine-tuning? ?</p>
+   <div> <input type="radio" id="label" name="train" value="label">
+    <label for="label">They require more data to work properly</label>
+    </div>
+   <div> <input type="radio" id="feature" name="train" value="feature">
+    <label for="feature">They adapt quickly to specific tasks with less data</label>
+    </div>
+   <div> <input type="radio" id="dataset" name="train" value="dataset">
+    <label for="dataset">They reduce file sizes only</label></div>
+</div>
+
+<div class="question">
+    <p>5. In “Play some music by Atif Aslam,” what is the entity??
+</p>
+    <select id="question5">
+        <option value="">--Select an answer--</option>
+        <option value="Regression">PlayMusic</option>
+        
+        <option value="Binary Classification">Music </option>
+        
+        <option value="Both a,b & c">Atif Aslam</option>
+    </select>
+</div>
+<div class="question">
+    <p>6. Which of the following BEST describes the difference between intent and entity?</p>
+  <div><input type="checkbox" id="typeRegression" value="Regression">
+    <label for="typeRegression">Entity is the goal of the conversation</label></div>
+    
+   <div><input type="checkbox" id="typesupervisedlearning" value="Supervised Learning">
+    <label for="typesupervisedlearning">Intent defines action; entity provides details</label></div>
+    
+    <input type="checkbox" id="typeunsupervisedlearning" value="Unsupervised Learning">
+    <label for="typeunsupervisedlearning">Intent is a keyword; entity is a sentence</label>
+    
+    
+</div>
+
+<div class="question">
+    <p>7. What is the goal of semantic analysis in NLP?
+ </p>
+    <select id="question7">
+        <option value="">--Select an answer--</option>
+        <option value="feature">To count how many words appear in a text</option>
+        
+        <option value="label"> To identify the sentiment of a sentence
+</option>
+         <option value="labl">To understand the meaning of words, phrases, and sentences</option>
+    </select>
+</div>
+<div class="question">
+    <p>8.  In the sentence “I love this product!”, what is the sentiment? </p>
+    <select id="question8">
+        <option value="">--Select an answer--</option>
+        <option value="feature"> Negative</option>
+         <option value="label">Neutral </option>
+        <option value="lael"> Positive</option>
+              <option value="labl">Mixed</option>
+    </select>
+</div>
+<div class="question">
+    <p>9. Which of the following would MOST LIKELY be labeled as negative sentiment?  </p>
+    <input type="radio" id="artificiallife" name="AI" value="artificiallife">
+    <label for="artificiallife">The service was outstanding</label>
+    <input type="radio" id="huan" name="AI" value="huan">
+    <label for="huan">I’m not happy with the product quality.</label>
+    <input type="radio" id="human" name="AI" value="human">
+    <label for="human">This movie is okay</label>
+    
+    
+</div>
+
+<div class="question">
+    <p>10.Which task requires both features and labels during training? </p>
+
+    <div>
+        <input type="radio" id="stylr" name="image" value="stylr"> 
+        <label for="stylr">Unsupervised learning</label>
+    </div>
+
+    <div>
+        <input type="radio" id="Elvenls" name="image" value="Elevenls">
+        <label for="Elvenls">Reinforcement learning</label>
+    </div>
+
+    <div>
+        <input type="radio" id="Elevenlab" name="image" value="Elvenlab">
+        <label for="Elevenlab">Supervised learning</label>
+    </div>
+</div>
+
+
+<br><br>
+
+        
+        <button onclick="checkAnswers()">submit</button>
+        <p id="result"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
